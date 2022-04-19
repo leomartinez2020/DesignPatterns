@@ -2,6 +2,9 @@ package com.leonardo.decoradores;
 
 import com.leonardo.cifrado.PlantillaCifrado;
 
+/**
+ * Esta clase implementa el patrón decorador
+ */
 public abstract class DecoradorCifrado extends PlantillaCifrado {
     // Protected variable
     protected PlantillaCifrado decoratedCipher;

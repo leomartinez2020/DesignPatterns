@@ -7,10 +7,13 @@ import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * Esta clase sirve de plantilla para las otras clases de cifrado
+ */
 public abstract class PlantillaCifrado {
     public abstract String encrypt(String message);
 
-    // Method used by all instances
+    // Este método puede ser usado por todas las instancias y no se puede modificar
     public final void writeEncryptedMessageToFile(String encryptedMessage, String encryptionType) {
         Date date = new Date();
         // El nombre del archivo se compone del tipo de encripción y la fecha y hora

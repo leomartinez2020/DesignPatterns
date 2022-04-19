@@ -1,5 +1,10 @@
 package com.leonardo.cifrado;
 
+/**
+ * La clase implementa el método de cifrado cesar
+ * que es simplemente desplazar la posición de la letra
+ * 13 espacios. El 13 fue tomado arbitrariamente
+ */
 public class CifradoCesar extends PlantillaCifrado {
     public static final String alpha = "abcdefghijklmnopqrstuvwxyz";
 

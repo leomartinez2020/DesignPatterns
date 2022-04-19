@@ -6,6 +6,11 @@ import com.leonardo.cifrado.CifradoVocales;
 import com.leonardo.cifrado.PlantillaCifrado;
 import com.leonardo.decoradores.DecoradorPreprocesamiento;
 
+/**
+ * Esta clase implementa el patrón Factory para
+ * crear diferente tipos de cifrado de acuerdo a la lectura
+ * del texto que se lee
+ */
 public class FabricaCifrado {
     //Comment
     public PlantillaCifrado getCipher(String cipherType) {

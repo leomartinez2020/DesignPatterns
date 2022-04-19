@@ -8,6 +8,9 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ * Clase que ejecuta el código e interactúa con el usuario
+ */
 public class DemoPatrones {
     public static String getMessageFromFile(String filePath) throws FileNotFoundException {
         try {

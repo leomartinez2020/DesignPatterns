@@ -3,6 +3,9 @@ package com.leonardo.cifrado;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Esta clase remplaza las vocales por números
+ */
 public class CifradoVocales extends PlantillaCifrado {
     @Override
     public String encrypt(String message) {
